@@ -1,0 +1,169 @@
+{
+  "categories": [
+    {
+      "id": "printing-machines",
+      "label": "Printing Machine",
+      "products": [
+        {
+          "name": "IWT 0101 i3200 HYBIRD MACHINE",
+          "image": "/images/IWT 0101 i3200 HYBIRD MACHINE.png",
+          "descriptionImage": "/images/IWT 0101 i3200 HYBIRD MACHINE DESCRIPTION.png",
+          "hasDescription": true
+        },
+        {
+          "name": "IWT 0408 512i 1024i-4 8 HEADS MACHINE",
+          "image": "/images/IWT 0408 512i 1024i-4 8 HEADS MACHINE.png",
+          "descriptionImage": "/images/IWT 0408 512i 1024i-4 8 HEADS MACHINE DESCRIPTION.png",
+          "hasDescription": true
+        },
+        {
+          "name": "IWT-0204-i3200 XP600 1-2 HEADS MACHINE",
+          "image": "/images/IWT-0204-i3200 XP600 1-2 HEADS MACHINE.png",
+          "descriptionImage": "/images/IWT-0204-i3200 XP600 1-2 HEADS MACHINE DESCRIPTION.png",
+          "hasDescription": true
+        },
+        {
+          "name": "IWT-0408 4 HEADS MACHINE",
+          "image": "/images/IWT-0408 4 HEADS MACHINE.png",
+          "descriptionImage": "/images/IWT-0408 4 HEADS MACHINE DESCRIPTION.png",
+          "hasDescription": true
+        },
+        {
+          "name": "IWT-0408 512i 1024i 4 8 HEADS MACHINE",
+          "image": "/images/IWT-0408 512i 1024i 4 8 HEADS MACHINE.png",
+          "descriptionImage": "/images/IWT-0408 512i 1024i 4 8 HEADS MACHINE DESCRIPTION.png",
+          "hasDescription": true
+        },
+        {
+          "name": "IWT-512Ii 8 HEADS MACHINE",
+          "image": "/images/IWT-512Ii 8 HEADS MACHINE.png",
+          "descriptionImage": "/images/IWT-512Ii 8 HEADS MACHINE DESCRIPTION.png",
+          "hasDescription": true
+        },
+        {
+          "name": "LAMINATION HC02 MACHINE",
+          "image": "/images/LAMINATION HC02 MACHINE.png",
+          "descriptionImage": "/images/LAMINATION HC02 MACHINE DESCRIPTION.png",
+          "hasDescription": true
+        }
+      ]
+    },
+    {
+      "id": "printer-heads",
+      "label": "Printer Head",
+      "products": [
+        {
+          "name": "EPSON DX5",
+          "image": "/images/EPSON DX5.png",
+          "hasDescription": false
+        },
+        {
+          "name": "EPSON I1600 (A1 E1 U1)",
+          "image": "/images/EPSON I1600 (A1 E1 U1).png",
+          "hasDescription": false
+        },
+        {
+          "name": "EPSON I3200 (A1 E1 U1)",
+          "image": "/images/EPSON I3200 (A1 E1 U1).png",
+          "hasDescription": false
+        },
+        {
+          "name": "EPSON XP600 (A1 E1 U1)",
+          "image": "/images/EPSON XP600 (A1 E1 U1).png",
+          "hasDescription": false
+        },
+        {
+          "name": "GREEN CLEANING STICKS",
+          "image": "/images/GREEN CLEANING STICKS.png",
+          "hasDescription": false
+        },
+        {
+          "name": "HY FILTER CAPSULE",
+          "image": "/images/HY FILTER CAPSULE.png",
+          "hasDescription": false
+        },
+        {
+          "name": "KHF-30 INK PUMP (7W 24V)",
+          "image": "/images/KHF-30 INK PUMP (7W 24V).png",
+          "hasDescription": false
+        },
+        {
+          "name": "KONICA 512 42PL & 35PL",
+          "image": "/images/KONICA 512 42PL & 35PL.png",
+          "hasDescription": false
+        },
+        {
+          "name": "KONICA 512i 30PL",
+          "image": "/images/KONICA 512i 30PL.png",
+          "hasDescription": false
+        },
+        {
+          "name": "KONICA 1024i 30PL & KONICA 1024i 13PL",
+          "image": "/images/KONICA 1024i 30PL & KONICA 1024i 13PL.png",
+          "hasDescription": false
+        },
+        {
+          "name": "RICOH GEN5-UV",
+          "image": "/images/RICOH GEN5-UV.png",
+          "hasDescription": false
+        }
+      ]
+    },
+    {
+      "id": "spare-parts",
+      "label": "Spare Parts",
+      "products": [
+        { "name": "UMC KIT  KONICA - 1024i", "image": "/images/UMC KIT KONICA 1024i.png", "hasDescription": false },
+        { "name": "UMC KIT - KONICA 512i", "image": "/images/UMC KIT KONICA 512i.png", "hasDescription": false },
+        { "name": "UMC - KONICA 512 KIT", "image": "/images/UMC KONICA 512 KIT.png", "hasDescription": false },
+        { "name": "SUB TANK 6 HOLE", "image": "/images/SUB TANK 6 HOLE.png", "hasDescription": false },
+        { "name": "SUB TANK 4 HOLE", "image": "/images/SUB TANK 4 HOLE.png", "hasDescription": false },
+        { "name": "SOLENOIDE VALVE", "image": "/images/SOLENOIDE VALVE.png", "hasDescription": false },
+        { "name": "SENYANG i3200 BOARD KIT", "image": "/images/SENYANG i3200 BOARD KIT.png", "hasDescription": false },
+        { "name": "RASTER SENSOR 9730", "image": "/images/RASTER SENSOR 9730.png", "hasDescription": false },
+        { "name": "MINI SUB TANK", "image": "/images/MINI SUB TANK.png", "hasDescription": false },
+        { "name": "INK TANK FOR ECO", "image": "/images/INK TANK FOR ECO.png", "hasDescription": false },
+        { "name": "HOSON SOFT EPSON i3200 BOARD KIT", "image": "/images/HOSON SOFT EPSON i3200 BOARD KIT.png", "hasDescription": false },
+        { "name": "EPSON XP600 BOARD KIT", "image": "/images/EPSON XP600 BOARD KIT.png", "hasDescription": false },
+        { "name": "DAMPER", "image": "/images/DAMPER.png", "hasDescription": false },
+        { "name": "CLEANING CUP", "image": "/images/CLEANING CUP.png", "hasDescription": false },
+        { "name": "220ML CARTRIDGE", "image": "/images/220ML CARTRIDGE.png", "hasDescription": false },
+        { "name": "180 LPI ENCODER STRIP", "image": "/images/180 LPI ENCODER STRIP.png", "hasDescription": false },
+        { "name": "SWITCHS", "image": "/images/SWITCHS.png", "hasDescription": false },
+        { "name": "SINGAL CORE INK TUBE", "image": "/images/SINGAL CORE INK TUBE.png", "hasDescription": false },
+        { "name": "PULLY", "image": "/images/PULLY.png", "hasDescription": false },
+        { "name": "POWER SUPPLY BOX", "image": "/images/POWER SUPPLY BOX.png", "hasDescription": false },
+        { "name": "OFC CABLE", "image": "/images/OFC CABLE.png", "hasDescription": false },
+        { "name": "MOTORS", "image": "/images/MOTORS.png", "hasDescription": false },
+        { "name": "LVDS CABLE", "image": "/images/LVDS CABLE.png", "hasDescription": false },
+        { "name": "FLAT CABLE", "image": "/images/FLAT CABLE.png", "hasDescription": false },
+        { "name": "BELTS", "image": "/images/BELTS.png", "hasDescription": false },
+        { "name": "4 LINE INK TUBE", "image": "/images/4 LINE INK TUBE.png", "hasDescription": false }
+      ]
+    },
+    {
+      "id": "inks",
+      "label": "Ink",
+      "products": [
+        {
+          "name": "SOLVENT INK 30PL",
+          "image": "/images/SOLVENT INK 30PL.png",
+          "descriptionImage": "/images/SOLVENT INK 30PL DESCRIPTION.png",
+          "hasDescription": true
+        },
+        {
+          "name": "ECO SOLVENT INK i3200 XP600 DX SEARIES",
+          "image": "/images/ECO SOLVENT INK i3200 XP600 DX SEARIES.png",
+          "descriptionImage": "/images/ECO SOLVENT INK i3200 XP600 DX SEARIES DESCRIPTION.png",
+          "hasDescription": true
+        },
+        {
+          "name": "UV INK",
+          "image": "/images/UV INK.png",
+          "descriptionImage": "/images/UV INK DESCRIPTION.png",
+          "hasDescription": true
+        }
+      ]
+    }
+  ]
+}

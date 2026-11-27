@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Saisign – Product Showcase Website
+
+A modern, premium, fully responsive single-page product showcase website built with **Next.js 16**, **Tailwind CSS 4**, **Framer Motion** and **Lucide React**.
+
+---
+
+## Tech Stack
+
+| Tool | Version |
+|---|---|
+| Next.js | 16.4.6 |
+| React | 19 |
+| Tailwind CSS | 4.3.3 |
+| Framer Motion | latest |
+| Lucide React | latest |
+| TypeScript | 5 |
+
+---
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── layout.tsx          # Root layout with SEO metadata
+│   ├── page.tsx            # Single-page SPA composition
+│   └── globals.css         # Design tokens, fonts, base styles
+├── components/
+│   ├── Navbar.tsx          # Sticky nav, active section, mobile menu
+│   ├── Hero.tsx            # Hero section with animations
+│   ├── Products.tsx        # Product catalogue section
+│   ├── ProductCard.tsx     # Individual product card
+│   ├── ProductModal.tsx    # Product detail modal
+│   ├── WhyChooseUs.tsx     # Feature highlights section
+│   └── Footer.tsx          # Dark footer with quick links
+└── data/
+    └── products.json       # Product data (add/edit products here)
+```
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Adding / Editing Products
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Edit `src/data/products.json`. Each product entry follows this shape:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```json
+{
+  "id": 7,
+  "name": "Product Name",
+  "category": "Category",
+  "shortDescription": "Short description for the card.",
+  "image": "https://...",
+  "detailedDescription": "Full description for the modal.",
+  "features": ["Feature 1", "Feature 2"],
+  "specifications": {
+    "Key": "Value"
+  }
+}
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Design System
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Token | Value |
+|---|---|
+| Primary dark navy | `#091322` |
+| Royal blue | `#2563EB` |
+| Accent sky blue | `#38BDF8` |
+| Light background | `#F1F5F9` |
+| Secondary text | `#64748B` |
+| Heading font | Poppins |
+| Body font | Inter |
+
+---
+
+## Deployment
+
+Deploy instantly on [Vercel](https://vercel.com):
+
+```bash
+npx vercel
+```
+
+Or follow the [Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying).
