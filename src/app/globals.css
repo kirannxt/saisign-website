@@ -7,12 +7,13 @@
 @import "@fontsource/inter/600.css";
 
 @theme inline {
-  --color-navy: #091322;
+  --color-navy: #060B17;
   --color-royal: #2563EB;
+  --color-indigo: #6366F1;
   --color-sky: #38BDF8;
-  --color-light: #F1F5F9;
+  --color-light: #EDF3FC;
   --color-muted: #64748B;
-  --color-background: #ffffff;
+  --color-background: #060B17;
   --color-foreground: #091322;
   --font-heading: "Poppins", ui-sans-serif, system-ui, sans-serif;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;

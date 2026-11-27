@@ -13,9 +13,9 @@ export default function ProductCard({ product, onViewDetails }: Props) {
 
   return (
     <div
-      className={`flex flex-col items-center bg-[#f8f8f8] border border-[#ddd] rounded-md shadow-sm p-4 text-center ${
+      className={`flex flex-col items-center bg-white/95 border border-[#CBD5E1]/80 rounded-xl shadow-sm p-4 text-center ${
         product.hasDescription
-          ? "cursor-pointer hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
+          ? "cursor-pointer hover:border-[#38BDF8] hover:shadow-lg hover:shadow-[#2563EB]/10 hover:-translate-y-0.5 transition-all duration-200"
           : ""
       }`}
       onClick={handleClick}

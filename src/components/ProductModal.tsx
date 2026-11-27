@@ -43,7 +43,7 @@ export default function ProductModal({ product, onClose }: Props) {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.2 }}
-          className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm"
+          className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-[#060B17]/80 backdrop-blur-sm"
           onClick={(e) => e.target === e.currentTarget && onClose()}
           role="dialog"
           aria-modal="true"

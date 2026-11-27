@@ -31,8 +31,20 @@ const features = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-white py-20 lg:py-28">
-      <div className="mx-auto max-w-7xl px-6">
+    <section
+      id="why-us"
+      className="relative overflow-hidden bg-gradient-to-b from-[#060B17] via-[#0B1428] to-[#0E1B36] py-20 lg:py-28 border-t border-white/[0.06]"
+    >
+      {/* Matching ambient cobalt / cyan / indigo accents */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 overflow-hidden"
+      >
+        <div className="absolute -top-24 left-1/4 h-72 w-72 rounded-full bg-[#2563EB]/15 blur-[110px]" />
+        <div className="absolute bottom-0 right-1/5 h-72 w-72 rounded-full bg-[#6366F1]/15 blur-[110px]" />
+      </div>
+
+      <div className="relative mx-auto max-w-7xl px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -40,11 +52,11 @@ export default function WhyChooseUs() {
           transition={{ duration: 0.5 }}
           className="text-center mb-14"
         >
-          <span className="inline-block rounded-full bg-[#2563EB]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-[#2563EB] mb-4">
+          <span className="inline-block rounded-full border border-[#38BDF8]/30 bg-[#38BDF8]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-[#38BDF8] mb-4">
             Why Saisign
           </span>
           <h2
-            className="text-3xl sm:text-4xl font-bold text-[#091322]"
+            className="text-3xl sm:text-4xl font-bold text-white"
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
             Why Choose Us
@@ -59,18 +71,18 @@ export default function WhyChooseUs() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ delay: i * 0.1, duration: 0.5, ease: "easeOut" }}
-              className="group flex flex-col items-center text-center gap-4 rounded-2xl border border-[#F1F5F9] bg-[#F1F5F9]/50 p-7 hover:border-[#2563EB]/20 hover:bg-white hover:shadow-lg hover:shadow-[#2563EB]/8 transition-all duration-300"
+              className="group flex flex-col items-center text-center gap-4 rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur-sm p-7 hover:border-[#38BDF8]/40 hover:bg-white/[0.08] hover:shadow-xl hover:shadow-[#2563EB]/15 transition-all duration-300"
             >
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[#2563EB] to-[#38BDF8] shadow-md shadow-[#2563EB]/30 group-hover:scale-110 transition-transform duration-300">
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[#2563EB] via-[#4F46E5] to-[#38BDF8] shadow-lg shadow-[#2563EB]/30 group-hover:scale-110 transition-transform duration-300">
                 <f.icon className="h-6 w-6 text-white" />
               </div>
               <h3
-                className="text-base font-semibold text-[#091322]"
+                className="text-base font-semibold text-white"
                 style={{ fontFamily: "Poppins, sans-serif" }}
               >
                 {f.title}
               </h3>
-              <p className="text-sm text-[#64748B] leading-relaxed">
+              <p className="text-sm text-slate-300/80 leading-relaxed">
                 {f.description}
               </p>
             </motion.div>

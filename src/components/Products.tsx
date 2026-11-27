@@ -43,7 +43,7 @@ function CategorySlider({
         <button
           onClick={() => setIdx((i) => Math.max(0, i - 1))}
           disabled={idx === 0}
-          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-[#0080ba] text-white disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#006fa3] transition-colors"
+          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-[#2563EB] to-[#0EA5E9] text-white shadow-sm shadow-[#2563EB]/25 disabled:opacity-30 disabled:cursor-not-allowed hover:from-[#1D4ED8] hover:to-[#38BDF8] transition-all"
           aria-label="Previous"
         >
           <ChevronLeft className="h-5 w-5" />
@@ -71,7 +71,7 @@ function CategorySlider({
         <button
           onClick={() => setIdx((i) => Math.min(max, i + 1))}
           disabled={idx >= max}
-          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-[#0080ba] text-white disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#006fa3] transition-colors"
+          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-[#2563EB] to-[#0EA5E9] text-white shadow-sm shadow-[#2563EB]/25 disabled:opacity-30 disabled:cursor-not-allowed hover:from-[#1D4ED8] hover:to-[#38BDF8] transition-all"
           aria-label="Next"
         >
           <ChevronRight className="h-5 w-5" />
@@ -87,7 +87,10 @@ export default function Products() {
     .categories;
 
   return (
-    <section id="products" className="bg-white py-16 lg:py-24">
+    <section
+      id="products"
+      className="bg-gradient-to-b from-[#EDF3FC] via-[#F4F8FF] to-[#E5EEFB] py-16 lg:py-24 border-t border-[#CBD5E1]/60"
+    >
       <div className="mx-auto max-w-7xl px-6">
         {/* Section heading */}
         <motion.div
@@ -97,6 +100,9 @@ export default function Products() {
           transition={{ duration: 0.5 }}
           className="mb-10"
         >
+          <span className="inline-block rounded-full border border-[#2563EB]/20 bg-[#2563EB]/10 px-4 py-1 text-xs font-semibold uppercase tracking-widest text-[#2563EB] mb-3">
+            Catalog
+          </span>
           <h2
             className="text-3xl sm:text-4xl font-bold text-[#091322]"
             style={{ fontFamily: "Poppins, sans-serif" }}

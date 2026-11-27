@@ -1,5 +1,4 @@
 "use client";
-import { useState, useEffect } from "react";
 import { Zap } from "lucide-react";
 
 const quickLinks = [
@@ -7,18 +6,17 @@ const quickLinks = [
   { label: "Products", href: "#products" },
 ];
 
-export default function Footer() {
-  const [year, setYear] = useState(2025);
-  useEffect(() => { setYear(new Date().getFullYear()); }, []);
+const CURRENT_YEAR = 2026;
 
+export default function Footer() {
   return (
-    <footer className="bg-[#091322] border-t border-white/10">
+    <footer className="bg-[#060B17] border-t border-white/10">
       <div className="mx-auto max-w-7xl px-6 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-10">
           {/* Brand */}
           <div className="flex flex-col gap-4 sm:col-span-2">
             <div className="flex items-center gap-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-[#2563EB] to-[#38BDF8]">
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-[#2563EB] via-[#4F46E5] to-[#38BDF8]">
                 <Zap className="h-4 w-4 text-white" fill="white" />
               </div>
               <span
@@ -59,7 +57,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-white/40">
-            © {year} Saisign. All rights reserved.
+            © {CURRENT_YEAR} Saisign. All rights reserved.
           </p>
           <p className="text-xs text-white/30">
             Innovative Technology for a Smarter Tomorrow.
