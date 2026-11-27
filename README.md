@@ -99,12 +99,4 @@ Edit `src/data/products.json`. Each product entry follows this shape:
 
 ---
 
-## Deployment
-
-Deploy instantly on [Vercel](https://vercel.com):
-
-```bash
-npx vercel
-```
-
-Or follow the [Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying).
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
